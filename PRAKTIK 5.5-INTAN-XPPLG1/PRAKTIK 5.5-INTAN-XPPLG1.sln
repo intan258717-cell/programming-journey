@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRAKTIK 5.5-INTAN-XPPLG1", "PRAKTIK 5.5-INTAN-XPPLG1\PRAKTIK 5.5-INTAN-XPPLG1.csproj", "{154AA48B-4C86-4B5F-AA03-63CF909CE541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{154AA48B-4C86-4B5F-AA03-63CF909CE541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154AA48B-4C86-4B5F-AA03-63CF909CE541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154AA48B-4C86-4B5F-AA03-63CF909CE541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154AA48B-4C86-4B5F-AA03-63CF909CE541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2159BFD3-BB24-4753-9523-1D0B65E991BA}
+	EndGlobalSection
+EndGlobal
