@@ -1,0 +1,10 @@
+/*Style Menu Horizontal CSS*/
+.box {
+            display: inline-block;
+            width: 120px;
+            height: 100px;
+            background-color: blueviolet;
+            margin: 5px;
+            text-align: center;
+            line-height: 100px;
+        }
