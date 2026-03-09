@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Pribadi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:plum;
+        }
+        header {
+            margin-bottom: 2em;
+            text-align: center;
+        }
+        .center-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        article {
+            border: 1px solid silver;
+            border-radius: 0.8em;
+            padding: 1em;
+            margin-bottom: 1em;
+            background-color: white;
+        }
+        .arction-buttons {
+            margin: 1.5em;
+        }
+        .action-buttons button {
+            display: inline;
+            margin-right: 1em;
+            padding: 0.5em 1em;
+            border-radius: 0.8em;
+            border: 1px solid silver;
+        }
+        .container {
+    display: flex;
+    justify-content: space-around;
+    width: 93%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+}
+
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    background-color: white;
+}
+        footer {
+            font-size: small;
+            margin-top: 6em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Profil Saya</h1>
+    <p>Foto Saya</p>
+
+    <div style="text-align: center;">
+        <img src="Foto-Profil.jpeg" alt="Foto-Profil" class="center-img">
+    </div>
+    </header>
+
+    <article>
+        <p>Nama saya adalah Intan Retno Sari, Saya adalah seorang remaja berusia 15 tahun.
+           Saya memiliki hobi yang lumayan jarang diminati oleh remaja seusia saya yaitu berkebun.
+           Saya mulai suka menanam dari kecil saat masih SD.
+           </p>
+
+        <div class="action-buttons">
+            <button>&#x1F44D Like</button>
+            <button>&#128552 Comment</button>
+            <button>&#xF16D Share</button>
+        </div>
+    </article>
+
+    <article>
+        <p>Bisa dibilang saya adalah pencinta alam, saya menyukai banyak tanaman seperti bunga, buah dll.
+           Jika saat saya lagi emosi atau marah saya melampiaskanya dengan menanam dengan itu membuat hati 
+           saya jadi tenang. 
+           </p>
+
+        <div class="action-buttons">
+            <button>&#x1F44D Like</button>
+            <button>&#128552 Comment</button>
+            <button>&#xF16D Share</button>
+        </div>
+        </article>
+
+        <div class="container">
+        <div class="column">
+            <h2>Makanan Favorit</h2>
+            <ul>
+                <li>Bakso</li>
+                <li>Seblak</li>
+                <li>Mie Gulung</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Pengalaman</h2>
+            <ul>
+                <li>Meraih juara 2 menulis cerita rakyat</li>
+                <li>Wisudah TPQ</li>
+                <li>Mengikuti Pelantikan PKS</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        Copyright &copy; Intan R.S
+        </footer>
+</body>
+</html>
