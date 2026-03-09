@@ -1,0 +1,9 @@
+/*Styles4 CSS*/
+.hero {
+    width: 100vw;
+    height: 100vw;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 5vw;
+}

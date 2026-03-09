@@ -1,0 +1,18 @@
+/*Styles CSS*/
+.judul {
+    font-size: 40px;
+}
+.teks1 {
+    font-size: 20pt;
+}
+.box1 {
+    width: 5cm;
+    height: 2cm;
+    background-color: lightseagreen;
+    margin-bottom: 10px;
+}
+.box2 {
+    width: 50%;
+    background-color: lightsalmon;
+    padding: 20px;
+}
